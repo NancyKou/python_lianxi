@@ -14,7 +14,7 @@ A 已按非递减顺序排序。'''
 
 class Solution:
     def sort(self,a):
-        return [i**2 for i in A]
+        return sorted([i**2 for i in A])
 A = [-4,-1,0,3,10]
 result = Solution()
 print(result.sort(A))
