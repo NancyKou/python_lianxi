@@ -10,4 +10,4 @@ class XuZhu(TongLao):  #定义一个XuZhu类，并继承于TongLao
 
 xuzhu = XuZhu(1000,random.uniform(100, 201))         #实例化虚竹，传入童姥的hp和power
 xuzhu.read()   #调用XuZhu的 read方法
-xuzhu.read()  #xuzhu类直接调用tonglao的read方法
+#xuzhu.read()  #xuzhu类直接调用tonglao的read方法
