@@ -36,5 +36,5 @@ class TongLao:  #定义一个天山童姥类TongLao
         print('小和尚，快来帮姥姥打架！')
 
 tonglao = TongLao(1000,random.uniform(100, 201))  #实例化童姥，并传入实参童姥的hp和随机power
-tonglao.see_people("李秋水")  #实例化see_people方法，并传入参数‘丁春秋’
-tonglao.fight_zms(1000,random.uniform(100, 201))  #实例化李秋水，并传入实参李秋水的hp和随机power
+tonglao.see_people("李秋水")  #调用see_people方法，并传入参数‘丁春秋’
+tonglao.fight_zms(1000,random.uniform(100, 201))  #调用天山折梅手方法，并传入李秋水的hp和随机power
